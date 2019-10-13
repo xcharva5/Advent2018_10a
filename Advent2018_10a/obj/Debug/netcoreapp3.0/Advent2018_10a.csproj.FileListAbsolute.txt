@@ -1,0 +1,11 @@
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\bin\Debug\netcoreapp3.0\Advent2018_10a.exe
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\bin\Debug\netcoreapp3.0\Advent2018_10a.deps.json
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\bin\Debug\netcoreapp3.0\Advent2018_10a.runtimeconfig.json
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\bin\Debug\netcoreapp3.0\Advent2018_10a.runtimeconfig.dev.json
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\bin\Debug\netcoreapp3.0\Advent2018_10a.dll
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\bin\Debug\netcoreapp3.0\Advent2018_10a.pdb
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\obj\Debug\netcoreapp3.0\Advent2018_10a.csprojAssemblyReference.cache
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\obj\Debug\netcoreapp3.0\Advent2018_10a.AssemblyInfoInputs.cache
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\obj\Debug\netcoreapp3.0\Advent2018_10a.AssemblyInfo.cs
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\obj\Debug\netcoreapp3.0\Advent2018_10a.dll
+D:\AndrusPlayground\AdventOfCode\Advent2018_10a\Advent2018_10a\obj\Debug\netcoreapp3.0\Advent2018_10a.pdb
