@@ -6,24 +6,24 @@ namespace Advent2018_10a
 {
     class StarDisplay
     {
-        StarReader Reader { get; set; }
+        StarProcessor Processor { get; set; }
         bool AlreadyDisplayed { get; set; }
         int Iteration { get; set; }
 
-        public StarDisplay(StarReader sr)
+        public StarDisplay(StarProcessor sr)
         {
-            Reader = sr;
+            Processor = sr;
             AlreadyDisplayed = false;
             Iteration = 0;
         }
 
-        public void DispalyStars()
+        public void DisplayStars()
         {
             while (true)
             {
-                if (Reader.StarsAreClose(100))
+                if (Processor.StarsAreClose(100))
                 {
-                    List<string> result = Reader.Display();
+                    List<string> result = Processor.GenerateView();
                     foreach (string line in result)
                     {
                         Console.WriteLine("{0} {1}", Iteration, line);
@@ -37,7 +37,7 @@ namespace Advent2018_10a
                 }
 
                 Iteration++;
-                Reader.Update();
+                Processor.Update();
             }
 
             Console.WriteLine("You've seen everything you needed");

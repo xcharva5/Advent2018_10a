@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace Advent2018_10a
 {
-    class StarReader
+    class StarProcessor
     {        
         string Pattern;
         List<Star> Stars { get; set; }
@@ -14,7 +14,7 @@ namespace Advent2018_10a
         int DistanceX { get; set; }
         int DistanceY { get; set; }
 
-        public StarReader(string path)
+        public StarProcessor(string path)
         {
             Pattern = @"\D{10}([-\s]\d{5}),{1}\s([-\s]\d{5})\D{12}([-\s]\d{1}),{1}\s([-\s]\d{1})\D{1}";  // regex pattern
             Stars = new List<Star>();
@@ -68,7 +68,7 @@ namespace Advent2018_10a
             DistanceY = Stars.Max(s => s.Position.y) - Stars.Min(s => s.Position.y);  // distance between min and max Y position of stars
         }
 
-        public List<string> Display()
+        public List<string> GenerateView()
         {
             int MinX = Stars.Min(s => s.Position.x);
             int MaxX = Stars.Max(s => s.Position.x);

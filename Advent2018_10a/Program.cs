@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {            
-            StarReader sr = new StarReader("../../../input.txt");
-            StarDisplay sd = new StarDisplay(sr);
+            StarProcessor sp = new StarProcessor("../../../input.txt");
+            StarDisplay sd = new StarDisplay(sp);
 
-            sr.LoadStarsFromFile();
-            sd.DispalyStars();           
+            sp.LoadStarsFromFile();
+            sd.DisplayStars();           
         }
     }
     
