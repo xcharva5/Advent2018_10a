@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Advent2018_10a
 {
@@ -27,7 +26,7 @@ namespace Advent2018_10a
                     foreach (string line in result)
                     {
                         Console.WriteLine("{0} {1}", Iteration, line);
-                        System.Threading.Thread.Sleep(50);
+                        System.Threading.Thread.Sleep(70);
                     }
                     AlreadyDisplayed = true;
                 }

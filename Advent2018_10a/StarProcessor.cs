@@ -18,9 +18,9 @@ namespace Advent2018_10a
         {
             Pattern = @"\D{10}([-\s]\d{5}),{1}\s([-\s]\d{5})\D{12}([-\s]\d{1}),{1}\s([-\s]\d{1})\D{1}";  // regex pattern
             Stars = new List<Star>();
-            File = new System.IO.StreamReader(path);
+            File = new StreamReader(path);
             DistanceX = int.MaxValue;
-            DistanceY = int.MinValue;
+            DistanceY = int.MaxValue;
         }
 
         public bool StarsAreClose(int dist)
